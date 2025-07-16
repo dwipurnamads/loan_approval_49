@@ -76,7 +76,7 @@ def predict(gender, married, dependent, education, self_employed, applicant_inco
          loan_amount, loan_amount_true, credit_history, pro]]
     )
 
-    resultt = "Not Eligible" if prediction == 0 else "Eligible"
+    result = "Not Eligible" if prediction == 0 else "Eligible"
     return result
 
 if __name__ == "__main__":
